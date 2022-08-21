@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": ["./src/**/*", "env.d.ts", "./test/*"],
+  "exclude": [],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node", "jsdom", "vitest/globals"]
+  }
+}
